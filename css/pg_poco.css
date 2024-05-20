@@ -37,10 +37,10 @@
 	margin-left: 70px;
 }
 
-#aba_informacao{
-	position: absolute;
-	top: 40px;
-	height: 7%;
+.menu-verde{
+    position: absolute;
+    margin-left: -14px;
+    margin-top: 20px ;
 }
 
 #cabecalho{
@@ -353,7 +353,7 @@ body{
 		display: none;
 	}
 
-	#aba_informacao {
+	.menu-verde {
 		display: none;
 	}
 	#img_poco2{

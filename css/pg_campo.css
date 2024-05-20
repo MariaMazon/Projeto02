@@ -9,10 +9,10 @@
 	margin-left: 70px;
 }
 
-#aba_informacao{
-	position: absolute;
-	top: 40px;
-	height: 7%;
+.menu-verde{
+    position: absolute;
+    margin-left: -14px;
+    margin-top: 20px ;
 }
 
 #img_cabecalho{
@@ -138,12 +138,18 @@ main.cards section.card button:hover {
   	#petrobras {
     	display: none;
   	}
-  	#aba_informacao{
+	.menu-verde{
     	display: none;
   	}
   	#img_cabecalho{
 		background-image: url(../img_pgCampo/img_campo_cabecalho_telaMenor.png);
   	}
+	main.cards {
+		margin: 300px 20px 0 20px;  
+	}
+	body{
+		height: 1300px;
+	}
 }
 
 @media (max-width: 660px) {
@@ -172,8 +178,13 @@ main.cards section.card button:hover {
 @media (max-width:500px){
 	main.cards{
 		gap: 50px;
-		margin-top: 50px;
+		/* margin-top: 50px; */
+		margin: 200px 20px 0 20px; 
 	}
+	body{
+		height: 1080px;
+	}
+
 	main.cards section.card{
 		padding: 0 4rem 0 0;
 		max-width: 300px;

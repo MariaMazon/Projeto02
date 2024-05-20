@@ -773,7 +773,7 @@
 
 @media screen and (max-width:800px) {
     
-    body{
+    #body_pagina_inicial{
        background-image: url(../imagem/Backgorund-image-800px.jpg);
        background-size: cover;
        background-repeat: no-repeat;
@@ -788,7 +788,7 @@
 
 @media screen and (max-width:550px) {
    
-   body{
+   #body_pagina_inicial{
       background-image: url(../imagem/10.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -803,7 +803,7 @@
 
 /* @media screen and (max-width:420px) {
    
-    body{
+    #body_pagina_inicial{
        background-image: url(../imagem/50.jpg);
        background-size: cover;
        background-repeat: no-repeat;

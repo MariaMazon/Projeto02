@@ -9,7 +9,7 @@
     filter: grayscale(100%);
 }
 
-body {
+#body_pagina_inicial {
     margin: 0;
     padding: 0;
     background-image: url(../imagem/Background-Image-PC.jpg);

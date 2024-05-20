@@ -9,10 +9,10 @@
     margin-left: 70px;
 }
 
-#aba_informacao{
+.menu-verde{
     position: absolute;
-    top: 40px;
-    height: 7%;
+    margin-left: -14px;
+    margin-top: 20px ;
 }
 
 #img_cabecalho{
@@ -147,9 +147,16 @@ main.cards section.card button:hover {
             display: none;
         }
 
-        #aba_informacao {
+        .menu-verde {
             display: none;
         }
+        main.cards {
+            margin: 500px 20px 0 20px;  
+        }
+        body{
+            height: 1700px;
+        }
+        
     }
 
     @media (max-width: 770px){
@@ -192,8 +199,13 @@ main.cards section.card button:hover {
 
         main.cards{
             gap:80px;
-            margin-top: 50px;
+            /* margin-top: 50px; */
+            margin: 350px 20px 0 20px; 
         }
+        body{
+            height: 1400px;
+        }
+
 
         main.cards section.card {
             padding: 0 4rem 0 0;
